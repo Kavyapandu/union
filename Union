@@ -1,0 +1,32 @@
+#union
+a={0,1,2 3,4}
+b={2,4,5,6,8}
+for element in a:
+  c.add(element)
+for element in b:
+  c.add(element)
+print(c)
+
+#intersection
+a={0,1,2,3,4}
+b={2,4,5,6,8}
+result={element for element in a if element  in b}
+print(result)
+
+#difference 
+a{0,1,2,3,4}
+b={2,4,5,6,8}
+c={element for element in b if element not in a}
+print(c)
+
+#symmetric difference 
+a={0,1,2,3,4}
+b={2,4,5,6,8}
+c={}
+for element in a:
+   if element not in b:
+      c.add(element)
+for element in b:
+   if element not in a:
+       c.add(element)
+print(c)
